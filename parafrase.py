@@ -6,7 +6,7 @@ the original and paraphrased versions using multiple methods.
 
 Requirements:
 torch
-    pip install transformers  sentence-transformers scikit-learn
+    pip install transformers sentencepiece sentence-transformers scikit-learn
 """
 
 from transformers import PegasusForConditionalGeneration, PegasusTokenizer
